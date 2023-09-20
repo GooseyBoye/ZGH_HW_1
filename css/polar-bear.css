@@ -3,3 +3,8 @@ body {
   background-color: silver;
   text-align: center;
 }
+.ImageIcon{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

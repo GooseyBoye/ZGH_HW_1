@@ -3,3 +3,39 @@ body {
   background-color: salmon;
   text-align: center;
 }
+
+.bounty-board{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .poster{
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+} */
+/* .empty-box{
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+} */
+
+.poster-images{
+  width: 300px;
+  height: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.completed{
+  width: 300px;
+  height: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
