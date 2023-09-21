@@ -1,0 +1,26 @@
+body {
+  font-family: Courier New;
+  /* background-color: silver; */
+  text-align: center;
+  background-image: url(../img/wp12444319.jpg);  
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.Image{
+  width: 50vw;
+  height: 50vh;
+}
+
+.Information{
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
+  
+}
