@@ -1,7 +1,13 @@
 body {
   font-family: Gill Sans, sans-serif;
-  background-color: salmon;
   text-align: center;
+  background-image: url(../img/backgrouns.png);  
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center cemter;
+}
+.text{
+  color: white;
 }
 
 .bounty-board{
@@ -11,31 +17,21 @@ body {
   align-items: center;
 }
 
-/* .poster{
-  width: 200px;
-  height: 100px;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
-} */
-/* .empty-box{
-  width: 200px;
-  height: 100px;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
-} */
+.poster{
+  padding: 25px 50px 25px 50px;
+}
+
 
 .poster-images{
-  width: 300px;
-  height: 500px;
-  padding-left: 50px;
-  padding-right: 50px;
+  width: 320px;
+  height: 450px;
+}
+
+.empty-box{
+  padding: 25px 50px 25px 50px;
 }
 
 .completed{
-  width: 300px;
-  height: 500px;
-  padding-left: 50px;
-  padding-right: 50px;
+  width: 320px;
+  height: 450px;
 }
