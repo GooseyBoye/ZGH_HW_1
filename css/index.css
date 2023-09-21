@@ -1,5 +1,37 @@
 body {
   font-family: Gill Sans, sans-serif;
-  background-color: salmon;
   text-align: center;
+  background-image: url(../img/backgrouns.png);  
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center cemter;
+}
+.text{
+  color: white;
+}
+
+.bounty-board{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster{
+  padding: 25px 50px 25px 50px;
+}
+
+
+.poster-images{
+  width: 320px;
+  height: 450px;
+}
+
+.empty-box{
+  padding: 25px 50px 25px 50px;
+}
+
+.completed{
+  width: 320px;
+  height: 450px;
 }
